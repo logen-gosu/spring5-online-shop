@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/osh_prod
-    username: osh_prod_user
-    password: gwassy
+    url: jdbc:mysql://bec3c866a045fc:0fffef5f@eu-cdbr-west-02.cleardb.net/heroku_16e2145f33ab0ff?reconnect=true
+    username: bec3c866a045fc
+    password: 0fffef5f
     platform: mysql
   jpa:
     hibernate:

@@ -14,7 +14,8 @@
                                 <table class="table table-hover ">
                                     <thead class="thead-inverse">
                                     <tr>
-                                        <th>Name</th>
+                                        <th th:if="${#authorization.expression('hasRole(''ROLE_ADMIN'')')}">
+                                            Name</th>
                                         <th th:if="${#authorization.expression('hasRole(''ROLE_ADMIN'')')}">
                                             Update</th>
                                         <th th:if="${#authorization.expression('hasRole(''ROLE_ADMIN'')')}">
